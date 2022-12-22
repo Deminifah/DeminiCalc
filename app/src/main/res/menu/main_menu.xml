@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Basics">
+            <menu>
+                <group>
+                    <item android:title="Basic calculator" android:id="@+id/basic"/>
+                </group>
+                <group>
+                    <item android:title="Unit Converter" android:id="@+id/unit"/>
+                </group>
+                <group>
+                    <item android:title="Health Calculator"  android:id="@+id/health"/>
+                </group>
+                <group>
+                    <item android:title="World Time Calculator" android:id="@+id/time"/>
+                </group>
+                <group>
+                    <item android:title="Curency Converter" android:id="@+id/currency"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Others">
+            <menu>
+                <group>
+                    <item android:title="Gravity" />
+                </group>
+                <group>
+                    <item android:title="Density" />
+                </group>
+                <group>
+                    <item android:title="Pythagoras Theorem" />
+                </group>
+                <group>
+                    <item android:title="Energy" />
+                </group>
+                <group>
+                    <item android:title="Pressure" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>

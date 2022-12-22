@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context=".UnitActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.41137856" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:columnCount="4">
+                <!--    comment            -->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but1"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/seven" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but2"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/eight" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but3"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/nine" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but4"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/clear" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but6"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/four" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but7"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/five" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but8"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/six" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but9"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/six" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but10"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/one" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but11"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/two" />
+                </androidx.cardview.widget.CardView>
+                <!--    comment            -->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but12"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/three" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but13"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/minus" />
+
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but14"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/zero" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but15"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/dot" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but16"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/zero" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/but17"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2sp"
+                    android:backgroundTint="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="HandleClick"
+                        android:text="@string/plus" />
+                </androidx.cardview.widget.CardView>
+                <!--                -->
+
+                <!--                -->
+
+                <!--                -->
+
+
+                <!--                -->
+
+
+            </GridLayout>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/otherBtn"
+            app:cardCornerRadius="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/Centimeter"
+                    android:textColor="@color/icon"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                    app:layout_constraintStart_toStartOf="@+id/guideline7"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/first_convert"
+                    android:onClick="handleClick"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline6"
+                    app:layout_constraintStart_toStartOf="@+id/guideline3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    app:tint="@color/icon"
+                    app:layout_constraintBottom_toTopOf="@+id/textView4"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                    app:layout_constraintStart_toStartOf="@+id/guideline7"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    app:srcCompat="@drawable/convert" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="52dp"
+                    android:text="@string/Foot"
+                    android:textColor="@color/icon"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                    app:layout_constraintStart_toStartOf="@+id/guideline7" />
+
+                <EditText
+                    android:id="@+id/second_convert"
+                    android:onClick="handleClick"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline6"
+                    app:layout_constraintStart_toStartOf="@+id/guideline3" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.53" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.9" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.08" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.45" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/length"
+                android:textColor="@color/funcBtn" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Temp"
+                android:textColor="@color/funcBtn" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Vol"
+                android:textColor="@color/funcBtn" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mass"
+                android:textColor="@color/funcBtn" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/funcBtn"
+                android:text="Area" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        app:headerLayout="@layout/header_menu"
+        app:menu="@menu/main_menu"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="start">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
